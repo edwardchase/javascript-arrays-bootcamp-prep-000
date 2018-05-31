@@ -27,3 +27,13 @@ var chocolateBars = [
   function accessElementInArray(array, index) {
    return  array[index]
   }
+  
+    function destructivelyRemoveElementToBeginningOfArray(array,element) {
+  array.unshift(`${element}`)
+    return array
+  }
+  
+    function destructivelyRemoveElementToEndOfArray(array,element) {
+  array.unshift(`${element}`)
+    return array
+  }
