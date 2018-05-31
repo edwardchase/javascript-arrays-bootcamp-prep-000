@@ -28,12 +28,12 @@ var chocolateBars = [
    return  array[index]
   }
   
-    function destructivelyRemoveElementToBeginningOfArray(array) {
+    function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift()
     return array
   }
   
-    function destructivelyRemoveElementToEndOfArray(array,element) {
+    function destructivelyRemoveElementFromEndOfArray(array,element) {
   array.slice(length.array)
     return array
   }
