@@ -43,7 +43,7 @@ var chocolateBars = [
     return array
   }
   
-    function removeElementFromEndOfArray(array,element) {
+    function removeElementFromEndOfArray(array) {
   array = array.slice(length.array)
     return array
   }
