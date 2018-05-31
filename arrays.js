@@ -33,7 +33,7 @@ var chocolateBars = [
     return array
   }
   
-    function destructivelyRemoveElementFromEndOfArray(array,element) {
+    function destructivelyRemoveElementFromEndOfArray(array) {
   array.slice(length.array)
     return array
   }
